@@ -1,0 +1,22 @@
+{
+  "name": "circleci-integration",
+  "version": "1.0.0",
+  "description": "This is to test circleci with my basic js file",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amoebageek/circleci-test.git"
+  },
+  "author": "anujay kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amoebageek/circleci-test/issues"
+  },
+  "homepage": "https://github.com/amoebageek/circleci-test#readme",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}
