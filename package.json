@@ -18,5 +18,10 @@
   "homepage": "https://github.com/amoebageek/circleci-test#readme",
   "devDependencies": {
     "jest": "^25.1.0"
-  }
+  },
+  "jest": {
+    "verbose":true,
+    "collectCoverage": true,
+    "coverageReporters": ["json", "html"]
+}
 }
