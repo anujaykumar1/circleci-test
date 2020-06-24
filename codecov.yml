@@ -2,7 +2,7 @@ coverage:
   status:
       project:
         default:
-          threshold: 25
+          threshold: 25%
           base: auto
   range: 40..100
   round: up
