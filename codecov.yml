@@ -1,5 +1,11 @@
 codecov:
   bot: this-is-codecov-bot
+comment:
+  layout: "reach, diff, flags, files"
+  behavior: default
+  require_changes: true  # if true: only post the comment if coverage changes
+  branches:               # branch names that can post comment
+    - "master"
 coverage:	
   status:
       project:
