@@ -4,7 +4,8 @@
   "description": "This is to test circleci with my basic js file",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage && codecov -t $CODECOV_TOKEN"
+    "push-report":"jest --coverage && codecov -t $CODECOV_TOKEN",
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
