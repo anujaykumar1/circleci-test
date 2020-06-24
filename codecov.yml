@@ -1,7 +1,7 @@
 codecov:
   bot: this-is-codecov-bot
 comment:
-  layout: "reach, diff, flags, files"
+  layout: "diff"
   behavior: default
   require_changes: true  # if true: only post the comment if coverage changes
   branches:               # branch names that can post comment
@@ -15,8 +15,8 @@ coverage:
           base: auto
           flags: 
             - frontend
-  range: "40..100"
-  round: up
+  range: "70..100"
+  round: down
   precision: 2
   parsers:	
     javascript:	
