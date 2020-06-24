@@ -1,0 +1,5 @@
+coverage:
+  token: "215d6dfa-0cdd-4300-b3a8-5ed21d25d343"
+  parsers:
+    javascript:
+      enable_partials: no
