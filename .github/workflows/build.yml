@@ -30,5 +30,6 @@ jobs:
         npm install
         npm run build --if-present
         npm test
+        ./node_modules/.bin/codecov --token=${{ secrets.CODECOV_TOKEN }}
       env:
         CI: true
