@@ -8,13 +8,13 @@ comment:
     - "master"
 coverage:	
   status:
-      project:
-        default:
-          target: 50%
-          threshold: 25%
-          base: auto
-          flags: 
-            - frontend
+    project:
+      default:
+        target: 50%
+        threshold: 25%
+        base: auto
+        flags: 
+          - frontend
   range: "70..100"
   round: down
   precision: 2
