@@ -2,4 +2,4 @@ coverage:
   parsers:	
     javascript:	
       enable_partials: no 
-  paths: "coverage/clover.xml"
+  paths: "./coverage/clover.xml"
