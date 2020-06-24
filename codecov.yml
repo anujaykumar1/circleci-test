@@ -1,4 +1,11 @@
 coverage:	
+  status:
+      project:
+        default:
+          threshold: 20%
+  range: 40..100
+  round: up
+  precision: 2
   parsers:	
     javascript:	
       enable_partials: no 
