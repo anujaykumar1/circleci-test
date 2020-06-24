@@ -4,7 +4,7 @@
   "description": "This is to test circleci with my basic js file",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -23,9 +23,12 @@
   "jest": {
     "verbose": true,
     "collectCoverage": true,
+    "coverageDirectory":"./coverage/",
     "coverageReporters": [
       "json",
-      "html"
+      "lcov",
+      "text",
+      "clover"
     ]
   }
 }
