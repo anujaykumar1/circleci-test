@@ -1,6 +1,10 @@
 name: Code COverage
 
-on: [push,pull]
+on: 
+    push:
+       banches: [master]
+    pull_request:
+       branches: [master]   
 
 jobs:
   build:
