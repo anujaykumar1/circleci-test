@@ -1,6 +1,6 @@
 name: Code COverage
 
-on: [push]
+on: [push,pull]
 
 jobs:
   build:
