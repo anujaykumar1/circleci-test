@@ -1,9 +1,21 @@
+codecov:
+  bot: this-is-codecov-bot
+comment:
+  layout: "reach, diff, flags, files"
+  behavior: default
+  require_changes: true  # if true: only post the comment if coverage changes
+  branches:               # branch names that can post comment
+    - "master"
 coverage:	
   status:
       project:
         default:
-          threshold: 25
-  range: 40..100
+          target: 50%
+          threshold: 25%
+          base: auto
+          flags: 
+            - frontend
+  range: "40..100"
   round: up
   precision: 2
   parsers:	
