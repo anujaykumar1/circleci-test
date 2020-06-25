@@ -1,23 +1,19 @@
 codecov:
   bot: this-is-codecov-bot
 comment:
-  layout: "diff"
-  behavior: default
-  require_changes: true  # if true: only post the comment if coverage changes
-  branches:               # branch names that can post comment
-    - "master"
-coverage:	
+  require_changes: true
+coverage:
   status:
     project:
       default:
-        target: 50%
+        target: 70%
+        threshold: 30%
         base: auto
-        flags: 
+        flags:
           - frontend
-  range: "70..100"
+  range: 70..100
   round: down
   precision: 2
-  parsers:	
-    javascript:	
-      enable_partials: no 
-  paths: "./coverage/clover.xml"
+  parsers:
+    javascript:
+      enable_partials: no
