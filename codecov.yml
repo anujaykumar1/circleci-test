@@ -11,7 +11,7 @@ coverage:
         base: auto
         flags:
           - frontend
-  range: 70..100
+  range: 40..100
   round: down
   precision: 2
   parsers:
