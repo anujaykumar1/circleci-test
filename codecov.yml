@@ -11,7 +11,7 @@ coverage:
     patch:
       default:
         target: 50%
-        threshold: 30%
+        threshold: 10%
         base: auto
         flags: 
           - frontend
