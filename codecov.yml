@@ -8,7 +8,7 @@ coverage:
       default:
         target: 70%
         threshold: 30%
-        base: parent
+        base: auto
         flags:
           - frontend
   range: 70..100
