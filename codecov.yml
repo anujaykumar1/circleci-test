@@ -8,11 +8,12 @@ comment:
     - "master"
 coverage:	
   status:
-    patch:
+    project:
       default:
         target: 50%
-        threshold: 10%
-        base: auto
+        threshold: 30%
+        base: parent
+        patch: off
         flags: 
           - frontend
   range: "70..100"
