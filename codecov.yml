@@ -6,7 +6,7 @@ coverage:
   status:
     project:
       default:
-        threshold: 30%
+        threshold: 40%
         base: auto
         flags:
           - frontend
