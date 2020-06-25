@@ -6,7 +6,7 @@ coverage:
   status:
     project:
       default:
-        target: 50%
+        target: 60%
         threshold: 30%
         base: parent
         flags:
