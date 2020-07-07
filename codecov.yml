@@ -6,12 +6,11 @@ coverage:
   status:
     project:
       default:
-        target: 70%
-        threshold: 30%
+        threshold: 40%
         base: auto
         flags:
           - frontend
-  range: 70..100
+  range: 40..100
   round: down
   precision: 2
   parsers:
